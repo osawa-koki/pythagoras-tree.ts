@@ -12,5 +12,6 @@ module.exports = {
   publicRuntimeConfig: {
     basePath: isProd ? SUB_DIRECTORY : ''
   },
-  trailingSlash: true
+  trailingSlash: true,
+  staticPageGenerationTimeout: 10000
 }
